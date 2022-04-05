@@ -1,0 +1,107 @@
+html{
+  background: linear-gradient(90deg, rgb(248, 163, 132), rgb(255, 152, 114), rgb(248, 163, 132))  !important;
+  color: rgba(187, 16, 16, 0);
+  text-align: center;
+  overflow-x: hidden;
+}
+body{
+  background: rgba(187, 16, 16, 0);
+  color: rgba(187, 16, 16, 0);
+  text-align: center;
+  background: rgb(255, 115, 63) !important;
+  overflow-x: hidden;
+}
+#root{
+  background: linear-gradient(90deg, rgb(248, 163, 132), rgb(255, 152, 114), rgb(248, 163, 132))  !important;
+}
+.container{
+  text-align: center;
+  background: rgba(187, 16, 16, 0);
+}
+.row{
+  text-align: center;
+  padding: 3%;
+  background: rgba(187, 16, 16, 0);
+}
+#weather{
+  background: rgba(255, 255, 255, 0.253);
+  border-radius: 2vw;
+}
+p{
+  text-transform: capitalize;
+  display: inline;
+}
+
+
+
+
+h2{
+  color: rgb(221, 121, 6);
+}
+#topTitle{
+  color: grey;
+}
+#topImage{
+  margin-bottom: 10px;
+}
+.label{
+  justify-content: center;
+  font: bold 1.05em Arial;
+}
+
+.Wdays{
+  margin: 1%;
+  border-radius: 1vw 1vw;
+  background: rgba(255, 255, 255, 0.199);
+}
+.title{
+  color: rgb(0, 0, 0);
+}
+.Date{
+  font: bold 1.05em Arial;
+}
+.text{
+  text-align: center;
+  padding: 2%;
+}
+.text > div{
+  padding-top: 10%;
+  text-align: center;
+}
+.text > div > p{
+  font: bold 1.1em arial;
+}
+
+
+
+.App{
+  text-align: center;
+  background: rgba(187, 16, 16, 0);
+}
+#CanvasContainer{
+  height: auto;
+  width: auto;
+  text-align: center;
+  padding-top: 40px;
+}
+.footer{
+  margin-top: 50vh !important;
+}
+  .footer > img{
+    margin-left: -1.75em;
+  }
+  .footer > a{
+    text-decoration: none;
+  }
+
+
+  @media (min-width: 1000px){
+    .flip-card-front {
+      column-count: 2;
+      text-align: left;
+    }
+    .flip-card-back {
+      column-count: 2;
+      text-align: left;
+    }
+  }

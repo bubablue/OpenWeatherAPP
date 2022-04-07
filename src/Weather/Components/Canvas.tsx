@@ -11,7 +11,6 @@ const Canvas: React.FC<{}> = () => {
 
     useEffect(() => {
 
-        // Initialize
         if (canvasRef.current) {
             canvasCtxRef.current = canvasRef.current.getContext('2d');
             let ctx = canvasCtxRef.current;
